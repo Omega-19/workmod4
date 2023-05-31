@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Integration du flexslider -->
+    <link rel="stylesheet" href="../woocommerce-FlexSlider-690832b/flexslider.css">
+    <script src="../woocommerce-FlexSlider-690832b/jquery.flexslider-min.js"></script>
+    <!-- Intégration du jquery flex -->
+    <script src="../woocommerce-FlexSlider-690832b/jquery.flexslider.js"></script>
+
+    <!-- Intégration du fichier normalize -->
+    <link rel="stylesheet" href="../normalize.css-master/normalize.css">
+    <!-- Intégration  du sass -->
+    <link rel="stylesheet" href="style.css">
+    <title>WOlf_gang</title>
+</head>
+
+<body class="wrapper">
+    <header class="header">
+        <a href="#"><img src="img/logo.svg" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="#">Nos produits</a></li>
+                <li><a href="#">Nos tarifs</a></li>
+                <li><a href="#">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <article>
+            <h1>DEVENEZ LE MOZART DE LA MOTO AVEC <br> WOLF'<span class="color">GANG</span>!</h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/slider/1.jpg" alt="slider1">
+                    </li>
+                    <li>
+                        <img src="img/slider/2.jpg" alt="slider2">
+                    </li>
+                    <li>
+                        <img src="img/slider/3.jpg" alt="slider3">
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <article>
+            <h2>Découvrez <br> <span class="color">nos motos</span></h2>
+            <section>
+                <img src="img/team/1.jpg" alt="team1">
+                <h3>MOTO #1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis nihil hic illum aliquam, nisi
+                    sunt, saepe facere nulla quis, sapiente ducimus.</p>
+                <a href="#">En savoir plus</a>
+            </section>
+            <section>
+                <img src="img/team/2.jpg" alt="team2">
+                <h3>MOTO #2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis nihil hic illum aliquam, nisi
+                    sunt, saepe facere nulla quis, sapiente ducimus.</p>
+                <a href="#">En savoir plus</a>
+            </section>
+            <section>
+                <img src="img/team/3.jpg" alt="team3">
+                <h3>MOTO #3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis nihil hic illum aliquam, nisi
+                    sunt, saepe facere nulla quis, sapiente ducimus.</p>
+                <a href="#">En savoir plus</a>
+            </section>
+            <section>
+                <img src="img/team/4.jpg" alt="team4">
+                <h3>MOTO #4</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis nihil hic illum aliquam, nisi
+                    sunt, saepe facere nulla quis, sapiente ducimus.</p>
+                <a href="#">En savoir plus</a>
+            </section>
+            <article>
+                <h2>POUR NOUS CONNAITRE <span class="color">PLUS EN Détail</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt, ipsam dignissimos molestias,
+                    libero suscipit in ratione debitis aspernatur minima, neque voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero, eligendi accusamus voluptatibus
+                    dolor possimus, soluta assumenda dolorum tenetur odit quos quia quis vel?</p>
+            </article>
+        </article>
+        <script type="text/javascript" charset="utf-8">
+            $(window).on('load')(function () {
+                $(".flexslider").flexslider({
+                    animation: "slide",
+                    animationLoop: false,
+                    itemWidth: 210,
+                    itemMargin: 5
+                });
+            });
+        </script>
+    </main>
+    <footer class="footer">
+        <div>
+            <a href="#">
+                <span class="fa fa-facebook"></span>
+            </a>
+            <a href="#">
+                <span class="fa fa-twitter"></span>
+            </a>
+            <a href="#"><span class="fa fa-instagram"></span>
+            </a>
+            <video width="100%" height="25%" controls>
+                <source src="video/video.webm" type="video/webm">
+            </video>
+        </div>
+        <section>
+            <h2>Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima omnis doloribus sed itaque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sapiente minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus!</p>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact Us</a>
+            <img src="logo-3wa.png" alt="logo3wa">
+            <p>Cet exercice de <a href="#">3w Academy</a> est mis à disposition <a href="#">pour l'usage personnel des
+                    étudiants. Pas de Rediffusion-Attribution-Pas d'Utilisation Commerciale-Pas de
+                    Modification-International</a>.</p>
+            <p>Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a
+                    href="mailto:contact@3wa.fr">contact@3wa.fr</a>.</p>
+            <p>Les maquettes ont été réalisées par <a href="#">Justine Muller</a>.</p>
+        </section>
+    </footer>
+</body>
+
+</html>

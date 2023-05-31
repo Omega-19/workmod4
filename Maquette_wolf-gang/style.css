@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+:root{
+    --clr-primaire:#fff;
+    --clr-secondaire:#333333;
+    --clr-third:#ff9d00;
+    --clr-fourth:#444444;
+}
+.wrapper{
+    max-width: 780px;
+    margin-inline:auto;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: Bodega Sans;
+    src: url(../Maquette_wolf-gang/fonts/BodegaSans_Black.ttf),format("truetype");
+    font-style: normal;
+}
+body{
+    background-image: url(../Maquette_wolf-gang/img/bg_body.svg);
+    background-repeat: repeat-y;
+    background-color: var(--clr-fourth);
+    font-family: "Bodega Sans";
+    color: var(--clr-primaire);
+}
+/* **************header*************** */
+header{
+    background-image: linear-gradient(-50deg,var(--clr-secondaire) 50%,var(--clr-primaire) 25%);
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--clr-primaire);
+}
+.color,
+h3{
+    color: var(--clr-third);
+}
+h1,
+h2{
+    text-transform: uppercase;
+}
+nav,
+h3{
+    /* font-size: 2.5rem; */
+}
+h1{
+    /* font-size: 4rem; */
+    text-align: center;
+}
+h2{
+    /* font-size: 3rem; */
+    text-align: justify;
+}
+
+/* ******MAIN************** */
+main section{
+    background-color: var(--clr-primaire);
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    margin-block: 1.5rem;
+    color: var(--clr-fourth);
+    margin-inline: 2rem;
+    text-align: center;
+}
+main section a{
+    background-color: var(--clr-third);
+    color: var(--clr-primaire);
+    text-decoration: none;
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+    margin-block: 1.5rem;
+    margin-inline: 3.5rem;
+}
+main section img{
+    width: 10rem;
+}
